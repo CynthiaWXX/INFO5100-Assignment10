@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class FileCounter
 {
-   private int chractersNumber, wordsNumber, linesNumber;
+   private int chractersNumber=0, wordsNumber=0, linesNumber=0;
    public FileCounter()
    {   
    }
@@ -21,7 +21,7 @@ public class FileCounter
     	 Scanner s = new Scanner(line);
     	 while (s.hasNext()){
     	 String words = s.next();
-    	 System.out.println(words);
+    	 //System.out.println(words);
     	 wordsNumber++;
     	  }
     	 linesNumber++;
