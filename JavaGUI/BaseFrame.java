@@ -19,7 +19,7 @@ public abstract class BaseFrame extends JFrame {
 	public abstract void addListeners();
 
 	private void display() {
-		setSize(1000, 500);
+		setSize(1200, 100);
 		setVisible(true);
 
 	}
