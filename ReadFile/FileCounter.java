@@ -1,4 +1,7 @@
 import java.util.Scanner;
+/**
+   A class to count the number of characters, words, and lines in files.
+*/
 
 public class FileCounter
 {
